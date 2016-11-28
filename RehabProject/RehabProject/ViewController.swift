@@ -84,6 +84,11 @@ class ViewController: UIViewController {
         compassImageView.transform = CGAffineTransform(rotationAngle: degrees * CGFloat(M_PI/180) )
     }
     
+    @IBAction func catchAnimal(_ sender: AnyObject) {
+        updateImage()
+    }
+    
+    
     
     
 
