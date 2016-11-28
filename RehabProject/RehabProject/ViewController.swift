@@ -30,9 +30,6 @@ class ViewController: UIViewController {
         compassImageView.transform = CGAffineTransform(rotationAngle: degrees * CGFloat(M_PI/180) )
     }
     
-    @IBAction func catchButtonPressed(_ sender: AnyObject) {
-        updateImage()
-    }
     
     
 
